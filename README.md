@@ -1,10 +1,10 @@
 # algoritmos-ordenacao
 materia de aula de estruturacao de dados
 
-##Tipos de Algoritmos
+## Tipos de Algoritmos
 
-###Bubble Sort
+### Bubble Sort
 
-###Seçection Sort
+### Seçection Sort
 
-###Cocktail Sort
+### Cocktail Sort
