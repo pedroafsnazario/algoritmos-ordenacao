@@ -8,8 +8,10 @@ public class Main {
         System.out.println("AULA PARA ALGORITMOS DE ORDENACAO AIIAIAIIIIIIII AIIIIIIIIIIIIIIII AAAAAAAAAAAAAAAA");
         int[] valores = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
         int[] valores2 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
+        int[] valores3 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
         ordenacao teste = new ordenacao(valores);
         ordenacao teste2 = new ordenacao(valores2);
+        ordenacao teste3 = new ordenacao(valores3);
 
         System.out.println("======================TESTE COM BUBBLE SORT=============================");
 
@@ -24,6 +26,11 @@ public class Main {
         System.out.println("===========================================================================");
 
 
+        System.out.println("======================TESTE COM COCKTAIL SORT=============================");
+
+        teste3.cocktailSort(13, valores3);
+
+        System.out.println("===========================================================================");
 
 
 
