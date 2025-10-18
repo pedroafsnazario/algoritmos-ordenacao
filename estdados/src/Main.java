@@ -118,7 +118,7 @@ class ordenacao {
             }
 
             trocou = false;
-            fim  ;
+            fim-- ;
 
             for(int i = fim; i > inicio; i--){
                 if(vetor[i] < vetor[i - 1]){
