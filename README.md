@@ -1,10 +1,20 @@
-# algoritmos-ordenacao
+# Algoritmos-ordenacao
 materia de aula de estruturacao de dados
 
 ## Tipos de Algoritmos
 
-### Bubble Sort
+**VISTOS EM AULA**
 
-### Seçection Sort
+### Bubble Sort 🧼
 
-### Cocktail Sort
+### Selection Sort 🔎
+
+### Cocktail Sort 🍹
+
+**VISTOS PARA O TDE**
+
+## Comb Sort 🐝
+
+## Bucket Sort 🗑
+
+## Gnome Sort 👨‍🌾
