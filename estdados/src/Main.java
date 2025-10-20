@@ -5,72 +5,107 @@ import java.util.Arrays;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("AULA PARA ALGORITMOS DE ORDENACAO");
+        System.out.println("TDE3 - Testes de desempenho - Algoritmos de Ordenação");
 
-        //int[] vetor1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
-        //int[] vetor2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
-        //int[] vetor3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+        
+        //Vetor 1 
+        int[] b1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
+        int[] s1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
+        int[] c1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
+        int[] cmb1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
+        int[] g1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
+        int[] bckt1= {12, 18, 9, 25, 17, 31, 22, 27, 16, 13, 19, 23, 20, 30, 14, 11, 15, 24, 26, 28};
 
-        int[] valores = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
-        int[] valores2 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
-        int[] valores3 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
-        int[] valores4 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
-        int[] valores5 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
-        int[] valores6 = {5, 2, 10, 12, 9, 20, 25, 34, 32, 47, 45, 50, 40};
-        ordenacao teste = new ordenacao(valores);
-        ordenacao teste2 = new ordenacao(valores2);
-        ordenacao teste3 = new ordenacao(valores3);
-        ordenacao teste4 = new ordenacao(valores4);
-        ordenacao teste5 = new ordenacao(valores5);
-        ordenacao teste6 = new ordenacao(valores6);
+        //Vetor 2
+        int[] b2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
+        int[] s2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
+        int[] c2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
+        int[] cmb2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
+        int[] g2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
+        int[] bckt2 = {5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32};
 
-        System.out.println("======================TESTE COM BUBBLE SORT=============================");
 
-        teste.bubbleSort(13, valores);
+        //Vetor 3
+        int[] b3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+        int[] s3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+        int[] c3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+        int[] cmb3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+        int[] g3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
+        int[] bckt3 = {99, 85, 73, 60, 50, 40, 35, 30, 25, 20, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6};
 
-        System.out.println("========================================================================");
+        ordenacao b = new ordenacao(b1);
+        ordenacao s = new ordenacao(s1);
+        ordenacao c = new ordenacao(c1);
+        ordenacao cmb = new ordenacao(cmb1);
+        ordenacao g = new ordenacao(g1);
+        ordenacao bckt = new ordenacao(bckt1);
 
-        System.out.println("  ");
+        System.out.println("Teste número 1 - Vetor de tamanho 20 com valores aleatórios entre 9 e 31");
 
-        System.out.println("======================TESTE COM SELECTION SORT=============================");
+        System.out.println("Bubble Sort:");
+        b.bubbleSort(b1.length, b1);
 
-        teste2.selectionSort(13, valores2);
+        System.out.println("Selection Sort:");
+        s.selectionSort(s1.length, s1);
 
-        System.out.println("===========================================================================");
+        System.out.println("Cocktail Sort:");
+        c.cocktailSort(c1.length, c1);
 
-        System.out.println("  ");
+        System.out.println("Comb Sort:");
+        cmb.combSort(cmb1.length, cmb1);
 
-        System.out.println("======================TESTE COM COCKTAIL SORT=============================");
+        System.out.println("Gnome Sort:");
+        g.gnomeSort(g1.length, g1);
 
-        teste3.cocktailSort(13, valores3);
+        System.out.println("Bucket Sort:");
+        bckt.bucketSort(bckt1.length, bckt1);
 
-        System.out.println("===========================================================================");
+        System.out.println("-------------------------------");
 
-        System.out.println("  ");
+        System.out.println("Teste número 2 - Vetor de tamanho 20 já ordenado");
 
-        System.out.println("======================TESTE COM GNOME SORT=================================");
+        System.out.println("Bubble Sort:");
+        b.bubbleSort(b2.length, b2);
 
-        teste4.gnomeSort(13, valores4);
+        System.out.println("Selection Sort:");
+        s.selectionSort(s2.length, s2);
 
-        System.out.println("===========================================================================");
+        System.out.println("Cocktail Sort:");
+        c.cocktailSort(c2.length, c2);
 
-        System.out.println("  ");
+        System.out.println("Comb Sort:");
+        cmb.combSort(cmb2.length, cmb2);
 
-        System.out.println("======================TESTE COM COMB SORT=================================");
+        System.out.println("Gnome Sort:");
+        g.gnomeSort(g2.length, g2);
 
-        teste5.combSort(13, valores5);
+        System.out.println("Bucket Sort:");
+        bckt.bucketSort(bckt2.length, bckt2);
 
-        System.out.println("===========================================================================");
+        System.out.println("-------------------------------");
 
-        System.out.println("  ");
+        System.out.println("Teste número 3 - Vetor de tamanho 20 ordenado em ordem decrescente");
 
-        System.out.println("======================TESTE COM BUCKET SORT=================================");
+        System.out.println("Bubble Sort:");
+        b.bubbleSort(b3.length, b3);
 
-        teste6.bucketSort(13, valores6);
+        System.out.println("Selection Sort:");
+        s.selectionSort(s3.length, s3);
 
-        System.out.println("============================================================================");
+        System.out.println("Cocktail Sort:");
+        c.cocktailSort(c3.length, c3);
 
-        System.out.println("  ");
+        System.out.println("Comb Sort:");
+        cmb.combSort(cmb3.length, cmb3);
+
+        System.out.println("Gnome Sort:");
+        g.gnomeSort(g3.length, g3);
+
+        System.out.println("Bucket Sort:");
+        bckt.bucketSort(bckt3.length, bckt3);
+
+
+        System.out.println("-------------------------------");
 
 
         System.out.println("Fim dos testes.");
