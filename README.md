@@ -13,8 +13,8 @@ materia de aula de estruturacao de dados
 
 **VISTOS PARA O TDE**
 
-## Comb Sort 🐝
+### Comb Sort 🐝
 
-## Bucket Sort 🗑
+### Bucket Sort 🗑
 
-## Gnome Sort 👨‍🌾
+### Gnome Sort 👨‍🌾
