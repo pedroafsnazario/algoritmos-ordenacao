@@ -32,7 +32,7 @@ Materia de aula de estruturacao de dados
              É semelhante com o bubble sort, porém bem simples e pequeno.
 
 ## Análise dos Algoritmos de Ordenação📊
-- Foi feito 3 testes distintos com os 6 algoritmos de ordenacao, a fim de ver as qualidades e eficiência de cada algoritmo.
+- Foi feito 3 testes distintos com os 6 algoritmos de ordenacao, a fim de ver a eficiência de cada algoritmo.
 - Para cada teste foi usado 1 vetor diferente:
   - **vetor1** -> 20 Valores entre 9 a 31
   - **vetor2** -> 20 Valores, já ordenados
@@ -52,7 +52,7 @@ Materia de aula de estruturacao de dados
 - Lendo o arquivot txt e a tabela excel, podemos tirar as seguintes conclusões:
   - Em todos os 3 casos, quem se saiu bem foi o Selection Sort. Pois esse algoritmo foi o que teve menos números de interações e trocas, mantendo se consistente.
   - O menos eficiente dentre eles foi o Gnome Sort, apesar de que, o gnome sort, até onde compreendi ele foi feito para ser um tipo de Algoritmo "Pocket", ou seja, um Algoritmo de simples implementação feito para lidar com situações e problemas simples. E, dando uma colher de chá, o Algoritmo dele é bem pequeno, e mesmo assim conseguiu ordenar e passar pelos 3 testes sem demorar 1 segundo.
-  - É possível de perceber, que em quesito de realizar trocas, alguns algoritmos realizaram o mesmo número de trocas, porém é possível perceber o esforço que cada um teve para chegar á aquele valor por meio do número de interações que cada um teve.
+  - É possível de perceber, em quesito de realizar a ordenação de valores, alguns algoritmos realizaram o mesmo número de trocas, porém é possível perceber o esforço de cada algoritmo para chegar á aquele valor por meio do número de interações que cada um teve.
   - No teste 2, aonde os Algoritmos receberam um vetor já Ordenado, quem se sobresaiu foi o Bubble Sort, com apenas 1 interação e 0 trocas, graças a implementação de detectar se o vetor está ordenado ou não (que implementamos na Aula de 17/10/2025).
 
   
