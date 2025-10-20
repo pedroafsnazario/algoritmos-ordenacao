@@ -47,7 +47,7 @@ Materia de aula de estruturacao de dados
 - O Resultado está no arquivo .txt e na tabela excel, ambas no repositório, a tabela foi feita para facilitar a visualização dos resultados gerados.
 - Para facilitar ainda mais, resolvi implementar a tabela dos resultados aqui nesse ReadMe! a Imagem da Tabela está logo abaixo.
 
-  TBD)
+  ![Tabela de Resultados](sortresults.png)
 
 - Lendo o arquivot txt e a tabela excel, podemos tirar as seguintes conclusões:
   - Em todos os 3 casos, quem se saiu bem foi o Selection Sort. Pois esse algoritmo foi o que teve menos números de interações e trocas, mantendo se consistente.
