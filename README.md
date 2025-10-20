@@ -13,6 +13,9 @@ Feito por: Pedro Antonio Fernandes dos Santos Nazário
 - DESCRIÇÃO:
 ### Cocktail Sort 🍹
 - DESCRIÇÃO:
+
+--------------------------------------
+
 **VISTOS PARA O TDE**
 
 ### Comb Sort 🐝
