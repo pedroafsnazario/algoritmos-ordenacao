@@ -1,0 +1,47 @@
+TDE3 - Testes de desempenho - Algoritmos de Ordenação
+Teste número 1 - Vetor de tamanho 20 com valores aleatórios entre 9 e 31
+Bubble Sort:
+Nao houve mais trocas de posicoes, ou seja, o vetor está ordenado       
+Vetor Ordenado: [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31] trocas feitas: 78, Interacoes feitas: 15 
+Selection Sort:
+Vetor Ordenado: [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31] trocas feitas: 18, Interacoes feitas: 19 
+Cocktail Sort:
+Vetor Ordenado: [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31] trocas feitas: 78, Interacoes feitas: 154
+Comb Sort:
+Vetor Ordenado: [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31] trocas feitas: 22, Interacoes feitas: 129
+Gnome Sort:
+Vetor Ordenado: [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31] trocas feitas: 78, Interacoes feitas: 176
+Bucket Sort:
+Vetor Ordenado: [9, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 30, 31] trocas feitas: 19, Interacoes feitas: 58 
+-------------------------------
+Teste número 2 - Vetor de tamanho 20 já ordenado
+Bubble Sort:
+Nao houve mais trocas de posicoes, ou seja, o vetor está ordenado
+Vetor Ordenado: [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32] trocas feitas: 0, Interacoes feitas: 1     
+Selection Sort:
+Vetor Ordenado: [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32] trocas feitas: 0, Interacoes feitas: 19    
+Cocktail Sort:
+Vetor Ordenado: [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32] trocas feitas: 0, Interacoes feitas: 19    
+Comb Sort:
+Vetor Ordenado: [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32] trocas feitas: 0, Interacoes feitas: 110   
+Gnome Sort:
+Vetor Ordenado: [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32] trocas feitas: 0, Interacoes feitas: 20
+Bucket Sort:
+Vetor Ordenado: [5, 7, 9, 10, 12, 14, 15, 17, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32] trocas feitas: 0, Interacoes feitas: 39
+-------------------------------
+Teste número 3 - Vetor de tamanho 20 ordenado em ordem decrescente
+Bubble Sort:
+Nao houve mais trocas de posicoes, ou seja, o vetor está ordenado
+Vetor Ordenado: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 50, 60, 73, 85, 99] trocas feitas: 190, Interacoes feitas: 20
+Selection Sort:
+Vetor Ordenado: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 50, 60, 73, 85, 99] trocas feitas: 10, Interacoes feitas: 19
+Cocktail Sort:
+Vetor Ordenado: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 50, 60, 73, 85, 99] trocas feitas: 190, Interacoes feitas: 190
+Comb Sort:
+Vetor Ordenado: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 50, 60, 73, 85, 99] trocas feitas: 18, Interacoes feitas: 129
+Gnome Sort:
+Vetor Ordenado: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 50, 60, 73, 85, 99] trocas feitas: 190, Interacoes feitas: 400
+Bucket Sort:
+Vetor Ordenado: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 25, 30, 35, 40, 50, 60, 73, 85, 99] trocas feitas: 74, Interacoes feitas: 113
+-------------------------------
+Fim dos testes.
